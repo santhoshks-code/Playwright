@@ -7,3 +7,15 @@ doubleMeArrow(10);
 
 console.log(doubleMeArrow(10));
 console.log(doubleMe(20));
+
+const getEnv = () => "staging";
+console.log(getEnv);
+
+// multiline arrow function
+const getResult = (score) => {
+    if (score > 70) return "pass";
+    return "fail";
+}
+
+console.log(getEnv);
+console.log(getResult(60));
