@@ -8,7 +8,7 @@ test("Verify the login page is working", async (page) => {
 
 });
 
-function garimaStroy(items, callMeWhenStoreIsEmpty){
+function garimaStory(items, callMeWhenStoreIsEmpty){
     console.log("Store is busy");
 
     console.log("Store is Empty");
@@ -16,6 +16,14 @@ function garimaStroy(items, callMeWhenStoreIsEmpty){
 
 }
 
-garimaStroy("Verify if store is open", async (page) => {
+garimaStory("Verify if store is open", async (page) => {
 
+});
+
+function garimafunctionBuy(){
+    console.log("Lets start shopping.....");
+}
+
+garimaStory("Starting shopping", () => {
+    console.log("lest go for shopping")
 });
